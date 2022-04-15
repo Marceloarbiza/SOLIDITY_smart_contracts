@@ -23,6 +23,6 @@ Por lo tanto quedaría de esta forma:
 >>contract < nombre_contrato > { 
 >>>... 
 >>>//Computo del hash 
- >>>keccak256(abi.encodePacked(< values >));
- >>>... 
- >>	}
+>>>keccak256(abi.encodePacked(< values >));
+>>>... 
+>>	}
