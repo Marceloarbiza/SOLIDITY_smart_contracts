@@ -144,3 +144,24 @@ uint y = 10 years;
 1 hours = 3.600 segundos  
 1 years = 31.536.000 segundos  
 
+## :books: Casteo de variables
+
+Podemos pasar de un entero (uint o int) con "y" número de bits a un entero (uint o int) con "x" número de bits.  
+
+*uint< x > ( datos_uint< y >);*  
+*int< x > ( datos_int< y >);*  
+
+Podemos transformas un int con "y" número de bits a un uint con "x" número de bits y viceversa.  
+
+*uint< x > ( datos_int< y >);*  
+*int< x > ( datos_uint< y >);*  
+
+La suma de una variable de tipo **uint8** más una variable del tipo **uint** nos va a devolver como resultado una variable del tipo **uint**.  
+Por lo que deberíamos castear la variable del tipo **uint** a una variable del tipo **uint8**, para evitar problemas.  
+
+Ejemplo:  
+```sh
+uint8 entero_8_bits = 42;
+uint64 public casteo_1 = uint64(entero_8_bits);
+```
+En este ejemplo casteamos la variable **entero_8_bits*** del tipo **uint8** a **uint64** y lo guardamos en la variable **casteo_1**.  
