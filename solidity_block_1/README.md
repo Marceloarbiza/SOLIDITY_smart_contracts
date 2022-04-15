@@ -164,4 +164,4 @@ Ejemplo:
 uint8 entero_8_bits = 42;
 uint64 public casteo_1 = uint64(entero_8_bits);
 ```
-En este ejemplo casteamos la variable **entero_8_bits*** del tipo **uint8** a **uint64** y lo guardamos en la variable **casteo_1**.  
+En este ejemplo casteamos la variable **entero_8_bits** del tipo **uint8** a **uint64** y lo guardamos en la variable **casteo_1**.  
