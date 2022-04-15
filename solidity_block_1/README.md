@@ -131,3 +131,11 @@ En Solidity tenemos los siguientes sufijos, que nos ayudan a tratar con el tiemp
 ***< x >  years***  
 
 ***< x >*** es un número entero positivo (1, 2, 3,...)    
+
+Ej:  
+
+Si quiero almacenar en una variable 10 años ->  
+
+uint y = 10 years;  
+
+
