@@ -118,3 +118,16 @@ Declarar variable de tipo enum:
 *< nombre_variable > = < nombre_enumeracion >.< valor_enumeracion >;*  
 - Con el índice  
 *< nombre_variable > = < nombre_enumeracion >(< posicion >);*  
+
+## :books: Unidades de tiempo  
+
+En Solidity tenemos los siguientes sufijos, que nos ayudan a tratar con el tiempo:
+
+***< x >  seconds***  
+***< x >  minutes***  
+***< x >  hours***  
+***< x >  days***  
+***< x >  weeks***  
+***< x >  years***  
+
+***< x >*** es un número entero positivo (1, 2, 3,...)    
