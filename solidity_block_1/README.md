@@ -1,6 +1,6 @@
 # BLOCK_1 SOLIDITY
 
-## :pushpin: keccak256()
+## :books: keccak256()  
 
 [Info: keccak256()](https://www.exceptionlife.com/ethereum/question/3595/how-does-keccak256-with-abi-encodepacked-internally-works-i-am-getting-two-conflicting-results)
 
@@ -30,7 +30,7 @@ contract < nombre_contrato > {
   ... 
 }
 ```
-
+## :books: Variables  
 ## :pushpin: Variables Enteras
 
 *< tipo_dato > < nombre_variable >;*  
@@ -49,8 +49,7 @@ No podríamos declarar uint2
 El siguiente de uint8 es uint16  
 Si no especificamos < x >, por defecto es 256 -> uint256  
 
-**IMPORTANTE**
-Cuando determinamos la cantidad de bits hay que verificar que no haya overflow, o sea que el valor de la variable no exceda la cantidad de bits.
+:warning: Cuando determinamos la cantidad de bits hay que verificar que no haya overflow, o sea que el valor de la variable no exceda la cantidad de bits.
 
 Por ejemplo: 
 
@@ -92,4 +91,20 @@ Hace referencia a ls direcciones (address) en Ethereum.
 
 Cada cuenta en ETH tiene una dirección (address) como tu cuenta de banco, donde se tiene el dinero. En este caso sería una address donde se tienen los ETH.  
 
+## :books: Enums
+
+Enums son una manera de crear tu propio tipo de datos.  
+
+enum significa enumerable.  
+
+*enum < nombre_enumeracion > { valores_enumeracion }*  
+
+:warning: La declaración de una enumeración no debemos terminarla en **;**.  
+Los *valores_enumeracion* van separados por coma.  
+
+Los enums son explícitamente convertibles a enteros y desde enteros.  
+
+Declarar variable de tipo enum:  
+
+*< nombre_enumeracion > < nombre_variable >*  
 
