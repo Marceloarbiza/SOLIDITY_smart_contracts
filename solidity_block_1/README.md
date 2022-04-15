@@ -170,8 +170,8 @@ En este ejemplo casteamos la variable **entero_8_bits** del tipo **uint8** a **u
 uint entero_256_bits = 1000000;
 uint64 casteo_2 = uint64(entero_256_bits);
 ```  
-El casteo puede ser de menos a más bits como de más bits a menos, siempre que no haya overflow.  
 En este ejemplo casteamos la variable **entero_256_bits** del tipo **uint** a **uint64** y lo guardamos en la variable **casteo_2**.  
+:bulb: El casteo puede ser de menos a más bits como de más bits a menos, siempre que no haya overflow.  
 
 También podemos castear variables del tipo **uint< y >** a tipo **int< x >** y viceversa.  
 
@@ -182,7 +182,6 @@ uint8 casteo_3 = uint8(entero_16_bits);
 En este ejemplo casteamos la variable **entero_16_bits** del tipo **int16** a **uint8** y lo guardamos en la variable **casteo_3**.  
 
 Y viceversa.  
-
 
 ```sh
 uint entero_256_bits = 1000000;
