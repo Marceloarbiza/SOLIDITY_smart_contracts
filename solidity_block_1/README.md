@@ -1,6 +1,6 @@
 # BLOCK_1 SOLIDITY
 
-## keccak256()
+## :pushpin: keccak256()
 
 [Info: keccak256()](https://www.exceptionlife.com/ethereum/question/3595/how-does-keccak256-with-abi-encodepacked-internally-works-i-am-getting-two-conflicting-results)
 
@@ -31,7 +31,7 @@ contract < nombre_contrato > {
 }
 ```
 
-## Variables Enteras
+## :pushpin: Variables Enteras
 
 *< tipo_dato > < nombre_variable >;*
 
@@ -55,7 +55,7 @@ Si no especificamos < x >, por defecto es 256 -> uint256
 Cuando determinamos la cantidad de bits hay que verificar que no haya overflow, o sea que el valor de la variable no exceda la cantidad de bits.
 
 Por ejemplo: 
+64 
+:heavy_check_mark: uint64 = 7000; 
+:x:
 
-uint64 = 7000; 
-
-:seedling:
