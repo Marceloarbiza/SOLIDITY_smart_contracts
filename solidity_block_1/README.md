@@ -195,16 +195,17 @@ En este ejemplo casteamos la variable **entero_256_bits** del tipo **uint** a **
 Si añadimos el modificador **public** al declarar una variable, se creará una función getter.  
 Una función getter es una función que nos permite consultar su valor. El valor que está dentro de esa variable.  
 
-*< tipo_dato > [public] < nombre_variable >;*
+*< tipo_dato > [ public ] < nombre_variable >;*
 
 - Las variables públicas serán parte del contrato cuando se despliegue.  
 - Las variables públicas son accesibles desde dentro del contrato como fuera del contrato.  
 
 Hace pública una variable es opcional.  
 
-## :pushpin: Modificador private y internal
+## :pushpin: Modificador private e internal
 
-*< tipo_dato > [public | private | internal] < nombre_variable >;*  
+*< tipo_dato > [ public | private | internal ] < nombre_variable >;*  
 
-**Private:** Las variables *private* solo son visibles desde dentro del contrato.  
-**Internal:** Las variables *internal* solo son accesibles internamente.  
+**Private:** Las variables *private* solo son visibles desde dentro del mismo contrato. No serán accesibles para ningún otro contrato ni serán accesibles para contratos que deriven del mismo.    
+**Internal:** Las variables *internal* solo son accesibles internamente. Es parecido al modificador de *private*, pero con la diferencia de que las variables del tipo *internal* solo podrán ser llamadas internamente, desde dentro del mismo contrato, **pero** además también pueden ser llamadas desde contratos que deriven del mismo.   
+
