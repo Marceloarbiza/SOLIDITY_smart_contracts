@@ -1,8 +1,10 @@
-###BLOCK_1 SOLIDITY
+# BLOCK_1 SOLIDITY
+
+## keccak256()
 
 [keccak256()](https://www.exceptionlife.com/ethereum/question/3595/how-does-keccak256-with-abi-encodepacked-internally-works-i-am-getting-two-conflicting-results)
 
-####Secure hash algorithm
+#### Secure hash algorithm
 
 **Función criptográfica:** Realiza un cómputo de hash de 256 bits (32bytes).
 
