@@ -44,11 +44,11 @@ contract < nombre_contrato > {
 *uint< x > < nombre_variable >;*  
 *int< x > < nombre_variable >;*  
 
-***< x >*** varia de 8 a 256 en múltiplos de 8
-No podríamos declarar uint2
-Ejemplo: El siguiente de uint8 es uint16
-
-Si no especificamos < x >, por defecto es 256 -> uint256
+***< x >*** varia de 8 a 256 en múltiplos de 8  
+No podríamos declarar uint2  
+Ejemplo: El siguiente de uint8 es uint16  
+  
+Si no especificamos < x >, por defecto es 256 -> uint256  
 
 **IMPORTANTE**
 Cuando determinamos la cantidad de bits hay que verificar que no haya overflow, o sea que el valor de la variable no exceda la cantidad de bits.
