@@ -58,4 +58,38 @@ Por ejemplo:
 
 :heavy_check_mark: uint64 = 7000; 
 
+## :pushpin: Variables Strings
+
+Son cadenas de texto UTF-8 de longitud arbitraria.
+
+*string < nombre_variable >;*  
+
+Los strings son en realidad un array de bytes.  
+
+## :pushpin: Variables Booleanas
+
+Son variables del tipo lógico: **true o false**  
+
+*bool < nombre_variable >;  
+
+## :pushpin: Variables Bytes  
+
+Contienen una secuencia de bytes.  
+
+*bytes < nombre_variable >;*  
+
+***< x >*** varia de 1 a 32 (bytes)  
+
+Si no asignamos un < x > por defecto es 1 byte (bytes1).  
+
+## :pushpin: Variables Address  
+
+Las variables del tipo address contienen una dirección de 20 bytes.  
+
+Hace referencia a ls direcciones (address) en Ethereum.  
+
+*address < nombre_variable >;*  
+
+Cada cuenta en ETH tiene una dirección (address) como tu cuenta de banco, donde se tiene el dinero. En este caso sería una address donde se tienen los ETH.  
+
 
