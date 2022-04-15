@@ -162,6 +162,14 @@ Por lo que deberíamos castear la variable del tipo **uint** a una variable del 
 Ejemplo:  
 ```sh
 uint8 entero_8_bits = 42;
-uint64 public casteo_1 = uint64(entero_8_bits);
+uint64 casteo_1 = uint64(entero_8_bits);
 ```
 En este ejemplo casteamos la variable **entero_8_bits** del tipo **uint8** a **uint64** y lo guardamos en la variable **casteo_1**.  
+
+```sh
+uint entero_256_bits = 1000000;
+uint64 casteo_2 = uint64(entero_256_bits);
+```  
+El casteo puede ser de menos a más bits como de más bits a menos, siempre que no haya overflow.  
+
+
