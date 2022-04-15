@@ -111,6 +111,6 @@ Declarar variable de tipo enum:
 **** Modificar el valor de una variable enum ****  
 
 - Especificando la opción de la enumeración  
-*< nombre_variable > = < nombre_enumeracion >.< valor_enumeracion >;  
+*< nombre_variable > = < nombre_enumeracion >.< valor_enumeracion >;*  
 - Con el índice  
-< nombre_variable > = < nombre_enumeracion >(< posicion >);  
+*< nombre_variable > = < nombre_enumeracion >(< posicion >);*  
