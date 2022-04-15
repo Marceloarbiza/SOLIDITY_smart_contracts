@@ -206,6 +206,7 @@ Hace pública una variable es opcional.
 
 *< tipo_dato > [ public | private | internal ] < nombre_variable >;*  
 
-**Private:** Las variables *private* solo son visibles desde dentro del mismo contrato. No serán accesibles para ningún otro contrato ni serán accesibles para contratos que deriven del mismo.    
+**Private:** Las variables *private* solo son visibles desde dentro del mismo contrato. No serán accesibles para ningún otro contrato ni serán accesibles para contratos que deriven del mismo.  
+
 **Internal:** Las variables *internal* solo son accesibles internamente. Es parecido al modificador de *private*, pero con la diferencia de que las variables del tipo *internal* solo podrán ser llamadas internamente, desde dentro del mismo contrato, **pero** además también pueden ser llamadas desde contratos que deriven del mismo.   
 
