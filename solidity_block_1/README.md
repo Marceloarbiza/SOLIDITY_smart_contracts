@@ -70,7 +70,7 @@ Los strings son en realidad un array de bytes.
 
 Son variables del tipo lógico: **true o false**  
 
-*bool < nombre_variable >;  
+*bool < nombre_variable >;*   
 
 ## :pushpin: Variables Bytes  
 
