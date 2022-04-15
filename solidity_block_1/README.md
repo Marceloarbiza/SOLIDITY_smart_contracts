@@ -50,3 +50,12 @@ No podríamos declarar uint2
 Ejemplo: El siguiente de uint8 es uint16
 
 Si no especificamos < x >, por defecto es 256 -> uint256
+
+**IMPORTANTE**
+Cuando determinamos la cantidad de bits hay que verificar que no haya overflow, o sea que el valor de la variable no exceda la cantidad de bits.
+
+Por ejemplo: 
+
+uint64 = 7000; 
+
+:seedling:
