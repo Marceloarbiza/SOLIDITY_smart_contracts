@@ -138,4 +138,9 @@ Si quiero almacenar en una variable 10 años ->
 
 uint y = 10 years;  
 
+***:alarm_clock: la base de todos estos sufijos son los segundos***
+
+1 minutes = 60 segundos  
+1 hours = 3.600 segundos  
+1 years = 31.536.000 segundos  
 
