@@ -46,8 +46,7 @@ contract < nombre_contrato > {
 
 ***< x >*** varia de 8 a 256 en múltiplos de 8  
 No podríamos declarar uint2  
-Ejemplo: El siguiente de uint8 es uint16  
-  
+El siguiente de uint8 es uint16  
 Si no especificamos < x >, por defecto es 256 -> uint256  
 
 **IMPORTANTE**
