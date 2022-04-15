@@ -189,3 +189,8 @@ int casteo_4 = int(entero_256_bits);
 ``` 
 En este ejemplo casteamos la variable **entero_256_bits** del tipo **uint** a **int** y lo guardamos en la variable **casteo_4**.  
 
+## :books: Modificador public
+
+Si añadimos el modificador **public** al declarar una variable, se creará una función getter.
+
+*< tipo_dato > [public]* < nombre_variable >;*  
