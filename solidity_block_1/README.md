@@ -33,16 +33,16 @@ contract < nombre_contrato > {
 
 ## :pushpin: Variables Enteras
 
-*< tipo_dato > < nombre_variable >;*
-*< tipo_dato > < nombre_variable > = < valor_variable >;*
+*< tipo_dato > < nombre_variable >;*  
+*< tipo_dato > < nombre_variable > = < valor_variable >;*  
 
-*uint*: variables enteras sin signo (enteros positivos)
-*int*: variables enteras con signo (enteros positivos y negativos)
+*uint*: variables enteras sin signo (enteros positivos)  
+*int*: variables enteras con signo (enteros positivos y negativos)  
 
 **Podemos especificar el número de bits de la variable**
 
-*uint< x > < nombre_variable >;*
-*int< x > < nombre_variable >;*
+*uint< x > < nombre_variable >;*  
+*int< x > < nombre_variable >;*  
 
 ***< x >*** varia de 8 a 256 en múltiplos de 8
 No podríamos declarar uint2
