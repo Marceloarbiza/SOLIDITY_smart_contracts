@@ -193,4 +193,4 @@ En este ejemplo casteamos la variable **entero_256_bits** del tipo **uint** a **
 
 Si añadimos el modificador **public** al declarar una variable, se creará una función getter.
 
-*< tipo_dato > [public]* < nombre_variable >;*  
+*< tipo_dato > [public] < nombre_variable >;*
