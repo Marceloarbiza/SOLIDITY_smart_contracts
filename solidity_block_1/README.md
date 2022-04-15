@@ -33,9 +33,8 @@ contract < nombre_contrato > {
 
 ## :pushpin: Variables Enteras
 
-*< tipo_dato > < nombre_variable >;*
-
-*< tipo_dato > < nombre_variable > = < valor_variable >;*
+*< tipo_dato > < nombre_variable >;
+< tipo_dato > < nombre_variable > = < valor_variable >;*
 
 *uint*: variables enteras sin signo (enteros positivos)
 *int*: variables enteras con signo (enteros positivos y negativos)
