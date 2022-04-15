@@ -55,7 +55,9 @@ Si no especificamos < x >, por defecto es 256 -> uint256
 Cuando determinamos la cantidad de bits hay que verificar que no haya overflow, o sea que el valor de la variable no exceda la cantidad de bits.
 
 Por ejemplo: 
-64 
+
+2 ^ 64 = 18446744073709551616 
+
 :heavy_check_mark: uint64 = 7000; 
-:x:
+
 
