@@ -189,8 +189,22 @@ int casteo_4 = int(entero_256_bits);
 ``` 
 En este ejemplo casteamos la variable **entero_256_bits** del tipo **uint** a **int** y lo guardamos en la variable **casteo_4**.  
 
-## :books: Modificador public
+## :books: Modificadores 
+## :pushpin: Modificador public
 
-Si añadimos el modificador **public** al declarar una variable, se creará una función getter.
+Si añadimos el modificador **public** al declarar una variable, se creará una función getter.  
+Una función getter es una función que nos permite consultar su valor. El valor que está dentro de esa variable.  
 
 *< tipo_dato > [public] < nombre_variable >;*
+
+- Las variables públicas serán parte del contrato cuando se despliegue.  
+- Las variables públicas son accesibles desde dentro del contrato como fuera del contrato.  
+
+Hace pública una variable es opcional.  
+
+## :pushpin: Modificador private y internal
+
+*< tipo_dato > [public | private | internal] < nombre_variable >;*  
+
+**Private:** Las variables *private* solo son visibles desde dentro del contrato.  
+**Internal:** Las variables *internal* solo son accesibles internamente.  
