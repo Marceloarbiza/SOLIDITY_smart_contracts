@@ -1,5 +1,7 @@
 # BLOCK_1 SOLIDITY
 
+[INFO GENERAL](https://docs.soliditylang.org/en/v0.5.3/types.html)  
+
 ## :books: keccak256()  
 
 [Info: keccak256()](https://www.exceptionlife.com/ethereum/question/3595/how-does-keccak256-with-abi-encodepacked-internally-works-i-am-getting-two-conflicting-results)
@@ -92,6 +94,8 @@ Hace referencia a ls direcciones (address) en Ethereum.
 Cada cuenta en ETH tiene una dirección (address) como tu cuenta de banco, donde se tiene el dinero. En este caso sería una address donde se tienen los ETH.  
 
 ## :books: Enums
+
+[Info: enums](https://www.geeksforgeeks.org/solidity-enums-and-structs/)  
 
 Enums son una manera de crear tu propio tipo de datos.  
 
