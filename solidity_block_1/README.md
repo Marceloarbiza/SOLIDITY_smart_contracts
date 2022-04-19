@@ -210,3 +210,15 @@ Hacer pública una variable es opcional.
 
 **Internal:** Las variables *internal* solo son accesibles internamente. Es parecido al modificador de *private*, pero con la diferencia de que las variables del tipo *internal* solo podrán ser llamadas internamente, desde dentro del mismo contrato, **pero** además también pueden ser llamadas desde contratos que deriven del mismo.   
 
+## :pushpin: Modificador memory y storage
+
+*< tipo_dato > [ memory | storage ] < nombre_variable >;*  
+
+**Memory:** Guardado de manera temporal.  
+
+**Storage:** Guardado permmanentemente en la blockchain.  
+
+En general las variables de estado (aquellas variables declaradas fuera de ningún tipo de función), son por defecto del tipo storage, y se guardan permanentemente en la blockchain.
+
+Mientras que las variables que se declaran dentro de las funciones son por defecto de tipo memory y van a desaparece una vez que la llamada a la función haya terminado.
+
