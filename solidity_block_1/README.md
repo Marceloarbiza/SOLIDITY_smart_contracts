@@ -222,3 +222,13 @@ En general las variables de estado (aquellas variables declaradas fuera de ning�
 
 Mientras que las variables que se declaran dentro de las funciones son por defecto de tipo memory y van a desaparece una vez que la llamada a la función haya terminado.
 
+## :pushpin: Modificador payable
+
+:warning: Solo está disponible para los tipos de datos **address**.  
+
+*address [ payable ] < nombre_variable >;*  
+
+:moneybag: Prmite enviar y recibir ether.  
+
+**La address que declaremos como payable debe ser la dirección de un usuario, no la dirección de un contrato. Porque para enviar y recibir ether, debemos hacerlo a una address concreta.**  
+
