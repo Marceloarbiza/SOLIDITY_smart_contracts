@@ -200,7 +200,7 @@ Una función getter es una función que nos permite consultar su valor. El valor
 - Las variables públicas serán parte del contrato cuando se despliegue.  
 - Las variables públicas son accesibles desde dentro del contrato como fuera del contrato.  
 
-Hace pública una variable es opcional.  
+Hacer pública una variable es opcional.  
 
 ## :pushpin: Modificador private e internal
 
