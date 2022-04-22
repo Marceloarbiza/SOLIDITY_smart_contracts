@@ -257,6 +257,7 @@ contract compararStrings{
 ```  
 ## :pushpin: Operadores booleanos
 
+| Signo | declaración |
 | ------------- | ------------- |
 | **!** | negación |    
 | **&&** | and |  
