@@ -255,4 +255,12 @@ contract compararStrings{
     }
 }
 ```  
+## :pushpin: Operadores booleanos
+
+**!** negación  
+**&&** and  
+**||** or  
+**==** igualdad  
+**!=** inigualdad  
+
 
