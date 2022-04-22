@@ -257,10 +257,10 @@ contract compararStrings{
 ```  
 ## :pushpin: Operadores booleanos
 
-**!** negación  
-**&&** and  
-**||** or  
-**==** igualdad  
-**!=** inigualdad  
+| **!** | negación |    
+| **&&** | and |  
+| **||** | or |  
+| **==** | igualdad |  
+| **!=** | inigualdad |  
 
 
