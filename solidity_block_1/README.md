@@ -257,7 +257,6 @@ contract compararStrings{
 ```  
 ## :pushpin: Operadores booleanos
 
-| Primer encabezado | Segundo encabezado |
 | ------------- | ------------- |
 | **!** | negación |    
 | **&&** | and |  
