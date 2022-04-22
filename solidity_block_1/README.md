@@ -261,7 +261,7 @@ contract compararStrings{
 | ------------- | ------------- |
 | **!** | negación |    
 | **&&** | and |  
-| **||||** | or |  
+| **\|\|** | or |  
 | **==** | igualdad |  
 | **!=** | inigualdad |  
 
