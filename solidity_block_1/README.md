@@ -232,3 +232,4 @@ Mientras que las variables que se declaran dentro de las funciones son por defec
 
 **La address que declaremos como payable debe ser la dirección de un usuario, no la dirección de un contrato. Porque para enviar y recibir ether, debemos hacerlo a una address concreta.**  
 
+## :books: Comparar Strings con keccak256 :straight_ruler:
