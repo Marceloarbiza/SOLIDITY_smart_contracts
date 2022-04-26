@@ -325,7 +325,7 @@ ___________
 *< tipo_de_dato > [< longitud >] [ public ] < nombre_array > = [< valores >];*  
 
 **Inicializar un array dinámico**  
-*< tipo_de_dato > [ ] < nombre_array >  [ public ]  = [< valores >];*  
+*< tipo_de_dato > [ ]  [ public ] < nombre_array > = [< valores >];*  
 ___________  
   
 **Para acceder a un elemnto del array necesitamos su posición**  
