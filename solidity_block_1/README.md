@@ -266,3 +266,4 @@ contract compararStrings{
 | **!=** | inigualdad |  
 
 
+# :closed_book: Tema 4 - Estructuras de datos
