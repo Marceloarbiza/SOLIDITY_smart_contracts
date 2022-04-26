@@ -267,7 +267,7 @@ contract compararStrings{
 
 
 # :closed_book: Tema 4 - Estructuras de datos
-## :pushpin: Introducción
+## :pushpin: Struct
 
 Las estructuras nos permiten definir tipos de datos más complejos.  
 
@@ -307,7 +307,11 @@ Al igual que las estructuras, los mapping nos sirven para organizar datos. Es un
 
 ## :pushpin: Arrays
 
-![alt text](https://javiergarciaescobedo.es/images/stories/apuntes/arrays01.jpg)
+Tipo de dato estructurado que almacena un conjunto homogéneo de datos.  
+
+![alt text](https://javiergarciaescobedo.es/images/stories/apuntes/arrays01.jpg)  
+
+:warning: Cada posición contiene un tipo de dato y **todos los datos son del mismo tipo**.  
 
 
 
