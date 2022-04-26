@@ -2,7 +2,8 @@
 
 [INFO GENERAL](https://docs.soliditylang.org/en/v0.5.3/types.html)  
 
-## :books: keccak256()  
+# :closed_book: Tema 2 - Propiedades de transacciones y bloques
+## :pushpin: keccak256()  
 
 [Info: keccak256()](https://www.exceptionlife.com/ethereum/question/3595/how-does-keccak256-with-abi-encodepacked-internally-works-i-am-getting-two-conflicting-results)
 
@@ -32,7 +33,7 @@ contract < nombre_contrato > {
   ... 
 }
 ```
-## :books: Variables  
+# :closed_book: Tema 3 - Tipos de variables y operaciones 
 ## :pushpin: Variables Enteras
 
 *< tipo_dato > < nombre_variable >;*  
