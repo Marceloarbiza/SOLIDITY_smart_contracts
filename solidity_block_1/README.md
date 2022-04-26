@@ -305,9 +305,9 @@ Al igual que las estructuras, los mapping nos sirven para organizar datos. Es un
 **Ver datos**  
 *< nombre_mapping > [ _key ];*  
 
+## :pushpin: Arrays
 
-
-
+![alt text](https://javiergarciaescobedo.es/images/stories/apuntes/arrays01.jpg)
 
 
 
