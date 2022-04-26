@@ -267,3 +267,12 @@ contract compararStrings{
 
 
 # :closed_book: Tema 4 - Estructuras de datos
+## :pushpin: Introducción
+
+Las estructuras nos permiten definir tipos de datos más complejos.  
+
+*struct < nombre_estructura > {  
+      < data_type_1 > < nombre_variable_1 >;  
+      < data_type_2 > < nombre_variable_2 >;  
+      < data_type_3 > < nombre_variable_3 >;  
+}*  
