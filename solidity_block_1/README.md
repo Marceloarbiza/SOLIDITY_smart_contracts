@@ -10,7 +10,7 @@ El contrato es el bloque de construcción más básico de todas las aplicaciones
 
 *contract < nombre_contrato > {  
   ...  
-}  
+}*  
 
 Todas las funcionalidades para ese contrato deben ir dentro del bloque del contrato.  
 
