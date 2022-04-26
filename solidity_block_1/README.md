@@ -313,6 +313,10 @@ Tipo de dato estructurado que almacena un conjunto homogéneo de datos.
 
 :warning: Cada posición contiene un tipo de dato y **todos los datos son del mismo tipo**.  
 
+**Array de longitud fija**  
+*< tipo_de_dato > [< longitud >] [ public ] < nombre_array >;*
 
+**Arrays dinámico**  
+*< tipo_de_dato > [] [ public ] < nombre_array >;*  
 
 
