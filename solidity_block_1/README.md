@@ -272,7 +272,7 @@ contract compararStrings{
 Las estructuras nos permiten definir tipos de datos más complejos.  
 
 *struct < nombre_estructura > {  
-      < data_type_1 > < nombre_variable_1 >;  
-      < data_type_2 > < nombre_variable_2 >;  
-      < data_type_3 > < nombre_variable_3 >;  
+\t< data_type_1 > < nombre_variable_1 >;  
+\t< data_type_2 > < nombre_variable_2 >;  
+\t< data_type_3 > < nombre_variable_3 >;  
 }*  
