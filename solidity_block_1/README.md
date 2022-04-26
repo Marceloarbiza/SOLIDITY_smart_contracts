@@ -2,6 +2,18 @@
 
 [INFO GENERAL](https://docs.soliditylang.org/en/v0.5.3/types.html)  
 
+
+# :closed_book: Tema 1 - Contratos
+## :pushpin: Creación de un contrato 
+
+El contrato es el bloque de construcción más básico de todas las aplicaciones de Ethereum.  
+
+*contract < nombre_contrato > {
+  ...
+}  
+
+Todas las funcionalidades para ese contrato deben ir dentro del bloque del contrato.  
+
 # :closed_book: Tema 2 - Propiedades de transacciones y bloques
 ## :pushpin: keccak256()  
 
