@@ -348,10 +348,14 @@ ___________
 
 Las funciones son las unidades ejecutables del código dentro de un contrato.  
 
-*function < nombre_funcion > (< tipos_parametro >) [ public | private ] {
+*function < nombre_funcion > (< tipos_parametro >) [ public | private ] {  
   ...  
 }*  
 
-Los parámetros de las funciones, por convención (no es obligatorio), deben comenzar con **barra baja (_)**, _nombreparamtro. De este modo podemos diferenciar las variables globales de las variables que se pasan como parámetros.  
+Los parámetros de las funciones, por convención (no es obligatorio), deben comenzar con barra baja, **_nombreparamtro**. De este modo podemos diferenciar las variables globales de las variables que se pasan como parámetros.  
+
+Por convención también se debe poner como **private** a todas aquellas funciones que no queremos que sean **public**.  
+
+
 
   
