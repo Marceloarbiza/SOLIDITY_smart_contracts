@@ -337,10 +337,10 @@ ___________
 
 **Función .push() y .length**  
 
-La función .push() añade un elemento al final del array.  
+**La función .push() añade un elemento al final del array.**  
 *< nombre_array >.push(< value >);*  
 
-La función .length devuelve la longitud del array.  
+**La función .length devuelve la longitud del array.**  
 *< nombre_array>.length;*  
 
 
