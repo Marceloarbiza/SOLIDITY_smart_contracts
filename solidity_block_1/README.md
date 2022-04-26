@@ -288,4 +288,27 @@ Para crear una variable del tipo "estructura" debemos hacerlo del siguiente modo
 // Declarar e inicializar una variable "struct"  
 *< nombre_estructura > < nombre_variable > = < nombre_estructura > (< propiedades_estructura >);*  
 
+## :pushpin: Mapping  
+
+Asociación key-value para guardar y ver datos.  
+
+Al igual que las estructuras, los mapping nos sirven para organizar datos. Es una relación key-value.  
+
+*mapping ( _keyType => _valueType ) [ public ] < nombre_mapping >;*  
+
+**_keyType** puede ser de cualquier tipo de dato, pero **no puede ser otro mapping**.  
+**_valueType** puede ser de cualquier tipo de dato, **incluyendo mapping**.
+
+**Guardar datos**  
+*< nombre_mapping > [ _key ] = _value;*  
+
+**Ver datos**  
+*< nombre_mapping > [ _key ];*  
+
+
+
+
+
+
+
 
