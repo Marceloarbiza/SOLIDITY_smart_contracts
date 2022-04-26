@@ -370,5 +370,20 @@ Los parámetros de las funciones, por convención (no es obligatorio), deben com
 Por convención también se debe poner como **private** a todas aquellas funciones que no queremos que sean **public**.  
 
 
+## :pushpin: Valores de retorno de una función  
+
+Las funciones pueden devolver valores de retorno al ser ejecutadas.  
+
+*function < nombre_funcion > (< tipos_parametro >) [ public | private ] **returns (< return_types >)** {  
+  ...  
+  **return (< return_types >)**  
+}*  
+
+Si quisiéramos devolver más de un parámetro, lo especificamos dentro del paréntesis con una ",".  
+
+Supongamos que quiero retornar 3 enteros, entonces: ... returns (int, int, int) { ... }  
+
+No tienen porqué ser del mismo tipo. Podría ser: ... returns (int, bool, string) { ... }  
+
 
   
