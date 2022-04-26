@@ -317,6 +317,6 @@ Tipo de dato estructurado que almacena un conjunto homogéneo de datos.
 *< tipo_de_dato > [< longitud >] [ public ] < nombre_array >;*
 
 **Arrays dinámico**  
-*< tipo_de_dato > [] [ public ] < nombre_array >;*  
+*< tipo_de_dato > [ ] [ public ] < nombre_array >;*  
 
 
