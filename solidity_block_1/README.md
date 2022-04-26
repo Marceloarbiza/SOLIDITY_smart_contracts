@@ -391,10 +391,12 @@ No tienen porqué ser del mismo tipo. Podría ser: ... returns (int, bool, strin
 *< type > = < nombre_funcion >(< parametros >);*  
 
 **Múltiples** valores devueltos    
-//Asignación múltiple de todos los valores devueltos
+⚠️ Tienen que estar en el mismo orden que en la declaración de la función.  
+
+//Asignación múltiple de todos los valores devueltos  
 *< type_1, type_2, type_3,..., type_n > = < nombre_funcion >(< parametros >);*  
 En este caso queremos guardar **todos** los valores devueltos  
 
-//Asignación de un subconjunto de los valores devueltos
+//Asignación de un subconjunto de los valores devueltos  
 *< ,,,type_i,,, > = < nombre_funcion >(< parametros >);*  
 En este caso queremos guardar **algunos** de los valores devueltos  
