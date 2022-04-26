@@ -343,6 +343,15 @@ ___________
 **La función .length devuelve la longitud del array.**  
 *< nombre_array>.length;*  
 
+# :closed_book: Tema 5 - Funciones
+## :pushpin: Declaración de funciones en Solidity  
 
-  
+Las funciones son las unidades ejecutables del código dentro de un contrato.  
+
+*function < nombre_funcion > (< tipos_parametro >) [ public | private ] {
+  ...  
+}*  
+
+Los parámetros de las funciones, por convención (no es obligatorio), deben comenzar con **_**, _nombreparamtro. De este modo podemos diferenciar las variables globales de las variables que se pasan como parámetros.  
+
   
