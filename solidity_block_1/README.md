@@ -319,17 +319,19 @@ Tipo de dato estructurado que almacena un conjunto homogéneo de datos.
 
 **Arrays dinámico**  
 *< tipo_de_dato > [ ] [ public ] < nombre_array >;*  
-
+  
+  
 **Inicializar un array de longitud fija**  
 *< tipo_de_dato > [< longitud >] [ public ] < nombre_array > = [< valores >];*  
 
 **Inicializar un array dinámico**  
 *< tipo_de_dato > [ ] < nombre_array >  [ public ]  = [< valores >];*  
-
-
+  
+  
 **Para acceder a un elemnto del array necesitamos su posición**  
 *< nombre_array > [< posición >];*  
 
 **Para fijar el valor de una posición del array**  
 *< nombre_array > [< posición >] = < valor >;*  
-
+  
+  
