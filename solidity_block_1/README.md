@@ -282,7 +282,7 @@ Las estructuras nos permiten definir tipos de datos más complejos.
 
 Para crear una variable del tipo "estructura" debemos hacerlo del siguiente modo:  
 
-// Declarar una variable struct  
+// Declarar una variable "struct"  
 *< nombre_estructura > < nombre_variable >;*  
 
 // Declarar e inicializar una variable "struct"  
