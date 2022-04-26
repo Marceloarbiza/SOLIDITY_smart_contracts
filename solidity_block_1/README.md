@@ -385,5 +385,16 @@ Supongamos que quiero retornar 3 enteros, entonces: ... returns (int, int, int) 
 
 No tienen porqué ser del mismo tipo. Podría ser: ... returns (int, bool, string) { ... }  
 
+**Valores devueltos**  
 
-  
+**Un** solo valor de retorno  
+*< type > = < nombre_funcion >(< parametros >);*  
+
+**Múltiples** valores devueltos    
+//Asignación múltiple de todos los valores devueltos
+*< type_1, type_2, type_3,..., type_n > = < nombre_funcion >(< parametros >);*  
+En este caso queremos guardar **todos** los valores devueltos  
+
+//Asignación de un subconjunto de los valores devueltos
+*< ,,,type_i,,, > = < nombre_funcion >(< parametros >);*  
+En este caso queremos guardar **algunos** de los valores devueltos  
