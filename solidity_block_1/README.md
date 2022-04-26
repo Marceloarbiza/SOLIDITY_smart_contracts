@@ -275,4 +275,17 @@ Las estructuras nos permiten definir tipos de datos más complejos.
   < data_type_1 > < nombre_variable_1 >;  
   < data_type_2 > < nombre_variable_2 >;  
   < data_type_3 > < nombre_variable_3 >;  
+  ...
 }*  
+
+**Trabajar con estructuras**  
+
+Para crear una variable del tipo "estructura" debemos hacerlo del siguiente modo:  
+
+// Declarar una variable struct  
+*< nombre_estructura > < nombre_variable >;*  
+
+// Declarar e inicializar una variable "struct"  
+*< nombre_estructura > < nombre_variable > = < nombre_estructura > (< propiedades_estructura >);*  
+
+
