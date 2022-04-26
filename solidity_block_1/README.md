@@ -352,6 +352,6 @@ Las funciones son las unidades ejecutables del código dentro de un contrato.
   ...  
 }*  
 
-Los parámetros de las funciones, por convención (no es obligatorio), deben comenzar con **_**, _nombreparamtro. De este modo podemos diferenciar las variables globales de las variables que se pasan como parámetros.  
+Los parámetros de las funciones, por convención (no es obligatorio), deben comenzar con **barra baja (_)**, _nombreparamtro. De este modo podemos diferenciar las variables globales de las variables que se pasan como parámetros.  
 
   
