@@ -410,7 +410,7 @@ En este caso queremos guardar **algunos** de los valores devueltos
 
 *function < nombre_funcion > (< tipos_parametro >) [ public | private ] [ view | pure | payable ] [ returns (< return_types >) ] {  
 ...  
-}  
+}*  
 
 **View:** No modifica los datos pero si accede a ellos. Vamos a poder acceder a los datos, pero no podremos modificarlos.  
 **Pure:** No accede ni siquiera a los datos. No los vas a poder leer. Este modificador es útil cuando la función solo depende de los parámetros.  
