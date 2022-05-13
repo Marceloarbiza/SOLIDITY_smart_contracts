@@ -427,7 +427,7 @@ En este caso queremos guardar **algunos** de los valores devueltos
   
   
 *if (< condicion >) {  
-// código a ejecutar si < condición > es verdadera
+// código a ejecutar si < condición > es verdadera  
 } else  {  
 // código a ejecutar si < condición > es falsa  
 }*   
