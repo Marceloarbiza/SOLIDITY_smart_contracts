@@ -458,7 +458,7 @@ El bucle while ejecuta un bloque de código mientras se cumple la expresión boo
 * La herencia nos permite la definición de un contrato a partir de un contrato existente.  
 * Basicamente la herencia nos permite compartir las diferentes funcionalidades y variables de un contrato a otro.  
   
-**:adult: Contrato padre**  
+**:bearded_person: Contrato padre**  
   
 *contract < nombre_contrato_1 > {  
 ...  
