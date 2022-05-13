@@ -419,3 +419,18 @@ En este caso queremos guardar **algunos** de los valores devueltos
 **Payable:** Permite recibir ether.  
 
 
+# :closed_book: Tema 6 - Bucles y condicionales  
+
+*if (< condicion >) {  
+// código a ejecutar si < condición > es verdadera
+}*  
+  
+  
+*if (< condicion >) {  
+// código a ejecutar si < condición > es verdadera
+} else  {  
+// código a ejecutar si < condición > es falsa  
+}*   
+
+
+## :pushpin: Modificador view, pure y payable (son opcionales) 
