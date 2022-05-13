@@ -443,3 +443,11 @@ El bucle for ejecuta un bloque de código un número finito de veces
 *for (< iniciar_contador >; < comprobar_contador >; < aumentar_contador >) {  
 // código a ejecutar en cada iteración  
 }*  
+  
+## :pushpin: Bucle while  
+
+El bucle while ejecuta un bloque de código mientras se cumple la expresión booleana  
+  
+*while (< condición >) {  
+// código a ejecutar mientra se cumple < condición >  
+}*  
