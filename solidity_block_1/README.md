@@ -439,6 +439,6 @@ La sentencia if ejecuta un bloque de código si la expresión booleana es cierta
 
 El bucle for ejecuta un bloque de código un número finito de veces  
   
-* for (< iniciar_contador >; < comprobar_contador >; < aumentar_contador >) {  
+*for (< iniciar_contador >; < comprobar_contador >; < aumentar_contador >) {  
 // código a ejecutar en cada iteración  
 }*  
