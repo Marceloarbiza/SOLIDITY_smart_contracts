@@ -454,9 +454,9 @@ El bucle while ejecuta un bloque de código mientras se cumple la expresión boo
 
 # :closed_book: Tema 7 - Interactuando con varios Smart Contracts  
 ## :pushpin: Herencia  
-La herencia simplifica y organiza el código.  
-La herencia nos permite la definición de un contrato a partir de un contrato existente.  
-Basicamente la herencia nos permite compartir las diferentes funcionalidades y variables de un contrato a otro.  
+* La herencia simplifica y organiza el código.  
+* La herencia nos permite la definición de un contrato a partir de un contrato existente.  
+* Basicamente la herencia nos permite compartir las diferentes funcionalidades y variables de un contrato a otro.  
 
   
 *contract < nombre_contrato_1 > {  
