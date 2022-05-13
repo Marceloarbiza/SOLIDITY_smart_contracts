@@ -420,7 +420,9 @@ En este caso queremos guardar **algunos** de los valores devueltos
 
 
 # :closed_book: Tema 6 - Bucles y condicionales  
-
+  
+La sentencia if ejecuta un bloque de código si la expresión booleana es cierta  
+  
 *if (< condicion >) {  
 // código a ejecutar si < condición > es verdadera
 }*  
@@ -433,4 +435,10 @@ En este caso queremos guardar **algunos** de los valores devueltos
 }*   
 
 
-## :pushpin: Modificador view, pure y payable (son opcionales) 
+## :pushpin: Bucle for  
+
+El bucle for ejecuta un bloque de código un número finito de veces  
+  
+* for (< iniciar_contador >; < comprobar_contador >; < aumentar_contador >) {  
+// código a ejecutar en cada iteración  
+}*  
