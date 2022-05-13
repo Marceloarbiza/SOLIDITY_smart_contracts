@@ -420,6 +420,7 @@ En este caso queremos guardar **algunos** de los valores devueltos
 
 
 # :closed_book: Tema 6 - Bucles y condicionales  
+## :pushpin: Sentencia if  
   
 La sentencia if ejecuta un bloque de código si la expresión booleana es cierta  
   
